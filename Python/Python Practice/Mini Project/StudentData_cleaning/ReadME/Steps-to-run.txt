@@ -1,0 +1,7 @@
+Steps to run this project:
+
+1. Add your student raw data csv in your "data -> input data" folder.
+If the data is in excel format you can convert it to csv through "excel_to_csv.py" file.
+2. Make changes in the config file, "config -> config.json" according to your recruitments (Changing the graduation year and allowed-locations)
+3. In "main.py" file mention your input csv file path and your desired output csvs name.
+4. The output will be stored in "data -> output data" folder and two csvs; valid_students and invalid_students will be stored separately.
