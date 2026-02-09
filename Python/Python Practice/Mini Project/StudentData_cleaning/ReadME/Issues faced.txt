@@ -1,0 +1,15 @@
+Issues faced:
+
+1. Not considering none/null/inappropriate values in cleaner. Initially, the CSV was only getting cleaned based on the requirement not actually cleaning the null/none/missing values.
+Sol: Wrote condition to check null/none/missing values as well
+
+2. Reading file, since I was stating absolute path was facing issues. 
+Sol: Changed to relative path using mathlib Path
+
+3. Multiple locations with different variations were mentioned, For eg; Andheri, Mumbai. Andheri. Andheri(EAST), Mumbai. Andheri(West), Mumbai.
+Sol: Mentioned main locations in config file and wrote condition for pattern matching so even if certain part of location is matched with config file, that location will be accepted
+
+4. The input csv was in xlsx format so had to convert first to csv
+
+5. The main column headers names were not matching with csv column headers also the column frequency was not same. This resulted in all the entries getting saved in "Invalid students" csv and all the entries saved as NONE by default
+Sol: 

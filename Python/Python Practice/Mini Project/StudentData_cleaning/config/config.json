@@ -1,0 +1,64 @@
+{
+  "allowed_year": 2026,
+  "allowed_locations": [
+    "mumbai",
+    "vile parle",
+    "santacruz",
+    "mahim",
+    "bandra",
+    "borivali",
+    "kandivali",
+    "vasai",
+    "virar",
+    "mira road",
+    "bhayandar",
+    "versova",
+    "wadala",
+    "byculla",
+    "juhu",
+    "andheri",
+    "thane",
+    "airoli",
+    "navi mumbai",
+    "nerul",
+    "koparkhairane",
+    "belapur",
+    "karjat",
+    "ulhasnagar",
+    "kurla",
+    "vashi",
+    "vidyavihar",
+    "sion",
+    "chembur",
+    "dombivli",
+    "kharghar",
+    "panvel",
+    "bhivpuri",
+    "palghar",
+    "chunabhatti"
+  ],
+  "email_must_contain": ["@", "."],
+  "valid_output_columns": [
+    "firstName",
+    "lastName",
+    "email",
+    "aggregatePercent",
+    "yearOfPassing",
+    "role",
+    "collegeName",
+    "location"
+  ],
+
+  "csv_column_mapping": {
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email id",
+    "aggregatePercent": "Aggregate Percentage (Only accept if is is 60 and above)",
+    "yearOfPassing": "Year of Passing",
+    "role": "Preferred Job position",
+    "collegeName": "College Name",
+    "location": "Where is your college located"
+  }
+}
+
+
